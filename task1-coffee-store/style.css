@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Lora', serif !important;
+    color: #3d3d3d ;
+}
+
+.navbar{
+    background: rgb(229, 229, 229);
+    height: 75px;
+}
+.brand {
+    color: #3d3d3d !important;
+}
+.nav a{
+    color: #3d3d3d !important;
+}
+li{
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+    vertical-align: center;
+}
+.index{
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.nav-link{
+    font-size: 18px !important;
+}
+
+.btn-giris{
+    background-color: rgb(193, 244, 169) !important;
+    border-radius: 50px !important;
+}
+.btn-kayit{
+    background-color: rgb(255, 215, 145) !important;
+    border-radius: 40px !important;
+}
+.btn-giris:hover{
+    background-color: rgb(174, 245, 141) !important;
+}
+.btn-kayit:hover{
+    background-color: rgb(252, 204, 120) !important;
+}
+.btn-product{
+    background-color: rgb(246, 255, 72) !important;
+}
+.img-fluid{
+    height: 225px !important;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.sbag{
+    background-color: rgb(217, 255, 134);
+    border-radius: 40px;
+}
+.brandslist{
+float: left;
+}
+.coffeess{
+    border-radius: 10px !important;
+}
+.slogan{
+    margin-top: 15%;
+    text-transform: uppercase;
+      text-align: center;
+    animation: blink 5s infinite;
+    -webkit-animation: blink 5s infinite;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+}
+
+.title-word {
+    animation: color-animation 4s linear infinite;
+  }
+  
+  .title-word-1 {
+    --color-1: #ffdd1d ; 
+    --color-2: #3d3d3d ;
+    --color-3: #ff7830 ;
+  }
+  
+  .title-word-2 {
+    --color-2: #ffdd1d ; 
+    --color-3: #3d3d3d ;
+    --color-1: #ff7830 ;
+  }
+  
+  .title-word-3 {
+    --color-3: #ffdd1d ; 
+    --color-2: #3d3d3d ;
+    --color-1: #ff7830 ;
+  }
+  
+  .title-word-4 {
+    --color-3: #ffdd1d ; 
+    --color-1: #3d3d3d ;
+    --color-2: #ff7830 ;
+  }
+  
+  @keyframes color-animation {
+    0%    {color: var(--color-1)}
+    32%   {color: var(--color-1)}
+    33%   {color: var(--color-2)}
+    65%   {color: var(--color-2)}
+    66%   {color: var(--color-3)}
+    99%   {color: var(--color-3)}
+    100%  {color: var(--color-1)}
+  }
