@@ -1,0 +1,617 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Akış | LinkedIn</title>
+  <link rel="stylesheet" href="../style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body class="homeBody">
+  <div class="container-fluid">
+    <div class="row fixed-top homeNav ">
+      <div class="col-md-12 homeNavMenu px-0 text-center d-flex justify-content-center" style="padding:6px 9px;">
+        <ul>
+          <li style="margin-right: 0;">
+            <svg style="width: 41px; height:41px ; color:rgb(10 102 194)" xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24"
+              height="24" focusable="false">
+              <path
+                d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z">
+              </path>
+            </svg>
+          </li>
+          <li>
+            <div class="d-none d-lg-block d-xl-block" style="width: 402px;">
+              <div class="global_search ">
+                <i style="width: 14px; height:14px; " class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Arama Yap">
+              </div>
+            </div>
+          </li>
+          <li class="active ">
+            <div class="row text-center">
+              <div class="col-12">
+                <i style="width: 22px;height: 19px; font-size: 20px;" class="fa-solid fa-house-chimney"></i>
+                <a class="homeMenuText " href="#">Ana Sayfa</a>
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="row text-center">
+              <div class="col-12">
+                <i class="fa-solid fa-user-group hMenuIcons"></i>
+                <a class="homeMenuText" href="#">Ağım</a>
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="row text-center">
+              <div class="col-12">
+                <i class="fa-solid fa-briefcase hMenuIcons"></i>
+                <a class="homeMenuText" href="#">İş İlanları</a>
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="row text-center">
+              <div class="col-12">
+                <i class="fa-solid fa-message hMenuIcons"></i>
+                <a class="homeMenuText" href="#">Mesajlar</a>
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="row text-center">
+              <div class="col-12">
+                <i class="fa-solid fa-bell hMenuIcons"></i>
+                <a class="homeMenuText" href="#">Bildirimler</a>
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="row text-center">
+              <div class="col-12 justify-content-center">
+                <div class="m-auto" style="width: 24px; height:24px;border-radius: 50%; ">
+                  <img src="../images/ben.jpg"
+                    style="object-fit: cover; width: 100%;height:100%;border-radius: 50%;margin-bottom: 5px;" alt="">
+                </div>
+                <span style="display: flex;"><a class="homeMenuText" href="#">Ben</a> <svg class="hMenuIcons"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16"
+                    fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                    <path d="M8 11L3 6h10z" fill-rule="evenodd"></path>
+                  </svg></span>
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="row text-center d-none d-lg-block d-xl-block">
+              <div class="col-12 justify-content-center">
+                <div class="m-auto" style="width: 24px; height:24px;border-radius: 50%; ">
+                  <svg style="width: 24px; height:24px; " class="hMenuIcons" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24"
+                    height="24" focusable="false">
+                    <path
+                      d="M3 3h4v4H3zm7 4h4V3h-4zm7-4v4h4V3zM3 14h4v-4H3zm7 0h4v-4h-4zm7 0h4v-4h-4zM3 21h4v-4H3zm7 0h4v-4h-4zm7 0h4v-4h-4z">
+                    </path>
+                  </svg>
+                </div>
+                <span style="display: flex;"><a class="homeMenuText" href="#">İş</a> <svg class="hMenuIcons"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16"
+                    fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                    <path d="M8 11L3 6h10z" fill-rule="evenodd"></path>
+                  </svg></span>
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="row text-center  d-none d-lg-block d-xl-block">
+              <div class="col-12 p-1">
+                <div style="width: 125px;">
+                  <a id="homePremText" href="#">Premium'u ücretsiz deneyin</a>
+                </div>
+              </div>
+
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+
+  </div>
+  <div class="container-fluid">
+    <div class="row" style="margin-top: 75px;">
+      <div class="col-md-10 offset-md-1 ">
+        <div class="row">
+          <div class="col-md-3 p-0 col-xs-12" style="max-width: 225px;">
+            <div class="row p-0 w-100 m-0">
+              <div class="col-md-12 p-0">
+                <div class="card homeCard">
+                  <div class="card-body p-0">
+                    <div class="card-container">
+                      <div class="top-card">
+                        <div style="width: 70px; height: 70px; border-radius: 50%;margin-bottom: 10px;">
+                          <img src="../images/ben.jpg" />
+                        </div>
+                      </div>
+                      <div class="bottom-card"></div>
+                    </div>
+                    <div class="row mt-2 mb-2">
+                      <div class="col-md-12 text-center">
+                        <h6 style="margin-bottom: 0;">Emirhan Altuntaş</h6>
+                      </div>
+                      <div class="col-md-12 text-center">
+                        <p class="homeLeftTopCard">Şu okulda öğrenci: Pamukkale Üniversitesi</p>
+                      </div>
+                    </div>
+                    <div class="row m-0"
+                      style="border-top: 1px solid rgb(236, 235, 235);border-bottom: 1px solid rgb(236, 235, 235); width:225px">
+                      <div class="col-md-12">
+                        <div class="row mt-3" style="font-size: 12px; color:rgb(114, 114, 114); font-weight:500">
+                          <div class="col-md-10 px-3">Kişi profilinizi görüntüledi</div>
+                          <div class="col-md-2 " style="color: rgb(10 102 194);">29</div>
+                        </div>
+                        <div class="row mt-1 mb-3" style="font-size: 12px; color:rgb(114, 114, 114); font-weight:500">
+                          <div class="col-md-10 px-3">Gönderiniz için gösterimler</div>
+                          <div class="col-md-2 " style="color: rgb(10 102 194);">89</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row m-0" style="font-size: 12px;">
+                      <div class="col-md-12 d-flex">
+                        <p class="p-2">
+                          Özel araç ve içgörülere erişin <br>
+                          <svg style="width: 16px; height:16px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                            data-supported-dps="24x24" class="mercado-match" width="24" height="24" focusable="false">
+                            <path d="M20 20a3.36 3.36 0 001-2.39V6.38A3.38 3.38 0 0017.62 3H6.38A3.36 3.36 0 004 4z"
+                              fill="#f8c77e"></path>
+                            <path d="M4 4a3.36 3.36 0 00-1 2.38v11.24A3.38 3.38 0 006.38 21h11.24A3.36 3.36 0 0020 20z"
+                              fill="#e7a33e"></path>
+                          </svg>
+                          <a style="color: hsl(0deg 0% 0% / 90%); text-decoration: underline !important; font-weight: 500;"
+                            href="#">Premium'u ücretsiz deneyin</a>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row m-0 py-1" style="border-top: 1px solid rgb(236, 235, 235)">
+                      <div class="col-md-12">
+                        <p class="p-2" style="color: rgb(78, 78, 78); font-size: 12px; font-weight: 500;">
+                          <i class="fa-solid fa-bookmark"></i> <span style="margin-left: 7px;">Ögelerim</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row p-0 w-100 m-0 mt-2">
+              <div class="col-md-12 p-0">
+                <div class="card homeCard">
+                  <div class="card-body p-0">
+
+
+                    <div class="row m-0"
+                      style="border-top: 1px solid rgb(236, 235, 235);border-bottom: 1px solid rgb(236, 235, 235); width:225px">
+                      <div class="col-md-12">
+                        <div class="row mt-3">
+                          <div class="col-12">
+                            <h6 style="font-size: 12px; color: rgb(69, 69, 69);">En Yeni</h6>
+                          </div>
+                          <div class="col-12" style="font-size: 12px; font-weight: 500; color: rgb(103, 103, 103);">
+                            <ul style="margin: 0;padding:0;">
+                              <li class="py-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16"
+                                  fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                                  <path
+                                    d="M2 2v9a3 3 0 003 3h6a3 3 0 003-3V2zm8.5 1.5a1 1 0 11-1 1 1 1 0 011-1zm-5 0a1 1 0 11-1 1 1 1 0 011-1zM12 11a1 1 0 01-1 1H5a1 1 0 01-1-1V7h8z">
+                                  </path>
+                                </svg>
+                                <span class="mx-1">Türkiye Yapay Zeka Haftası</span>
+                              </li>
+                              <li class="py-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16"
+                                  fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                                  <path
+                                    d="M8.5 7h-1A1.5 1.5 0 006 8.5V14h4V8.5A1.5 1.5 0 008.5 7zM12.75 8h-.5A1.25 1.25 0 0011 9.25V14h3V9.25A1.25 1.25 0 0012.75 8z">
+                                  </path>
+                                  <circle cx="8" cy="4" r="2"></circle>
+                                  <circle cx="12.5" cy="5.5" r="1.5"></circle>
+                                  <path d="M3.75 8h-.5A1.25 1.25 0 002 9.25V14h3V9.25A1.25 1.25 0 003.75 8z"></path>
+                                  <circle cx="3.5" cy="5.5" r="1.5"></circle>
+                                </svg>
+                                <span class="mx-1">Blender Artist Open Group</span>
+                              </li>
+                              <li class="py-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16"
+                                  fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                                  <path
+                                    d="M8.5 7h-1A1.5 1.5 0 006 8.5V14h4V8.5A1.5 1.5 0 008.5 7zM12.75 8h-.5A1.25 1.25 0 0011 9.25V14h3V9.25A1.25 1.25 0 0012.75 8z">
+                                  </path>
+                                  <circle cx="8" cy="4" r="2"></circle>
+                                  <circle cx="12.5" cy="5.5" r="1.5"></circle>
+                                  <path d="M3.75 8h-.5A1.25 1.25 0 002 9.25V14h3V9.25A1.25 1.25 0 003.75 8z"></path>
+                                  <circle cx="3.5" cy="5.5" r="1.5"></circle>
+                                </svg>
+                                <span class="mx-1">E-flow Designers</span>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-12">
+                            <h6 style="font-size: 12px; color: rgb(10 102 194);">Gruplar</h6>
+                          </div>
+                          <div class="col-12" style="font-size: 12px; font-weight: 500; color: rgb(103, 103, 103);">
+                            <ul style="margin: 0;padding:0;">
+                              <li class="py-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16"
+                                  fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                                  <path
+                                    d="M8.5 7h-1A1.5 1.5 0 006 8.5V14h4V8.5A1.5 1.5 0 008.5 7zM12.75 8h-.5A1.25 1.25 0 0011 9.25V14h3V9.25A1.25 1.25 0 0012.75 8z">
+                                  </path>
+                                  <circle cx="8" cy="4" r="2"></circle>
+                                  <circle cx="12.5" cy="5.5" r="1.5"></circle>
+                                  <path d="M3.75 8h-.5A1.25 1.25 0 002 9.25V14h3V9.25A1.25 1.25 0 003.75 8z"></path>
+                                  <circle cx="3.5" cy="5.5" r="1.5"></circle>
+                                </svg>
+                                <span class="mx-1">Blender Artist Open Group</span>
+                              </li>
+                              <li class="py-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16"
+                                  fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                                  <path
+                                    d="M8.5 7h-1A1.5 1.5 0 006 8.5V14h4V8.5A1.5 1.5 0 008.5 7zM12.75 8h-.5A1.25 1.25 0 0011 9.25V14h3V9.25A1.25 1.25 0 0012.75 8z">
+                                  </path>
+                                  <circle cx="8" cy="4" r="2"></circle>
+                                  <circle cx="12.5" cy="5.5" r="1.5"></circle>
+                                  <path d="M3.75 8h-.5A1.25 1.25 0 002 9.25V14h3V9.25A1.25 1.25 0 003.75 8z"></path>
+                                  <circle cx="3.5" cy="5.5" r="1.5"></circle>
+                                </svg>
+                                <span class="mx-1">E-flow Designers</span>
+                              </li>
+                              <li class="py-1">
+                                <a class="px-4" href="#" style="color: rgb(103, 103, 103);">Tümünü Gör</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-12">
+                            <div class="row">
+                              <div class="col-9">
+                                <h6 style="font-size: 12px; color: rgb(10 102 194);">Etkinliker </h6>
+                              </div>
+                              <div class="col-3 p-0"><i class="fa-solid fa-plus"></i></div>
+                            </div>
+                          </div>
+                          <div class="col-12" style="font-size: 12px; font-weight: 500; color: rgb(103, 103, 103);">
+                            <ul style="margin: 0;padding:0;">
+                              <li class="py-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16"
+                                  fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                                  <path
+                                    d="M2 2v9a3 3 0 003 3h6a3 3 0 003-3V2zm8.5 1.5a1 1 0 11-1 1 1 1 0 011-1zm-5 0a1 1 0 11-1 1 1 1 0 011-1zM12 11a1 1 0 01-1 1H5a1 1 0 01-1-1V7h8z">
+                                  </path>
+                                </svg>
+                                <span class="mx-1">Türkiye Yapay Zeka Haftası</span>
+                              </li>
+                              <li class="py-1">
+                                <a class="px-4" href="#" style="color: rgb(103, 103, 103);">Tümünü Gör</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="row mt-3 mb-2">
+                          <a href="#" style="font-size: 12px; font-weight:600">Takip Edilen Hashtagler</a>
+                        </div>
+                        <div class="row"
+                          style="border-top: 1px solid rgb(219, 218, 218);;font-size: 14px; font-weight: 600;">
+                          <div class="col-12 text-center py-2">
+                            <a href="#" style=" color:rgb(151, 151, 151)">Daha Fazla Keşfet</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5" style="width: 565px;">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="card homeCard " style="max-height: 116px;">
+                  <div class="card-body p-2">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="row m-0 mt-1">
+                          <div class="col-md-1 px-2">
+                            <div style="width: 48px; height: 48px; ">
+                              <img src="../images/ben.jpg" alt=""
+                                style="object-fit: cover; width:100%;height:100%;border-radius: 50%;">
+                            </div>
+                          </div>
+                          <div class="col-md-11 text-center" style="padding-right: 0;">
+                            <a class="btn  h-100 text-start p-2"
+                              style="border: 1px solid rgb(166, 166, 166); border-radius: 28px;width: 452px; vertical-align: middle; line-height: 1.5;"><span
+                                style="font-size: 13px; vertical-align:middle;margin-left:10px;font-weight: 600;color: rgb(129, 129, 129);">Gönderi
+                                başlat</span></a>
+                          </div>
+                        </div>
+                        <div class="row p-3" style="max-height:52px ;">
+                          <div class="col-md-12 addPostCard">
+                            <ul>
+                              <li>
+                                <svg style="color: rgb(55 143 233)" xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor"
+                                  class="mercado-match" width="24" height="24" focusable="false">
+                                  <path
+                                    d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm1 13a1 1 0 01-.29.71L16 14l-2 2-6-6-4 4V7a1 1 0 011-1h14a1 1 0 011 1zm-2-7a2 2 0 11-2-2 2 2 0 012 2z">
+                                  </path>
+                                </svg>
+                                <span>Fotoğraf</span>
+                              </li>
+                              <li>
+                                <svg style="color: rgb(95 155 65);" xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor"
+                                  class="mercado-match" width="24" height="24" focusable="false">
+                                  <path
+                                    d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm-9 12V8l6 4z">
+                                  </path>
+                                </svg>
+                                <span>Video</span>
+                              </li>
+                              <li>
+                                <svg style="color: rgb(195 125 22)" xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor"
+                                  class="mercado-match" width="24" height="24" focusable="false">
+                                  <path
+                                    d="M3 3v15a3 3 0 003 3h12a3 3 0 003-3V3zm13 1.75A1.25 1.25 0 1114.75 6 1.25 1.25 0 0116 4.75zm-8 0A1.25 1.25 0 116.75 6 1.25 1.25 0 018 4.75zM19 18a1 1 0 01-1 1H6a1 1 0 01-1-1V9h14zm-5.9-3a1 1 0 00-1-1H12a3.12 3.12 0 00-1 .2l-1-.2v-3h3.9v1H11v1.15a3.7 3.7 0 011.05-.15 1.89 1.89 0 012 1.78V15a1.92 1.92 0 01-1.84 2H12a1.88 1.88 0 01-2-1.75 1 1 0 010-.25h1a.89.89 0 001 1h.1a.94.94 0 001-.88z">
+                                  </path>
+                                </svg>
+                                <span>Etkinlik</span>
+                              </li>
+                              <li>
+                                <svg style="color: rgb(225 103 69)" xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor"
+                                  class="mercado-match" width="24" height="24" focusable="false">
+                                  <path
+                                    d="M21 3v2H3V3zm-6 6h6V7h-6zm0 4h6v-2h-6zm0 4h6v-2h-6zM3 21h18v-2H3zM13 7H3v10h10z">
+                                  </path>
+                                </svg>
+                                <span>Yazı Yaz</span>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-8" style="padding-right:0 ;">
+                <hr>
+              </div>
+              <div style="font-size: 12px;" class="col-md-4">
+                <p style="margin-top: 7px;color:rgb(133, 133, 133);">Sıralama ölçütü: <span
+                    style="font-weight: 600;color:rgb(45, 45, 45)">En Önemli <i
+                      class="fa-solid fa-caret-down"></i></span> </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="card homeCard ">
+                  <div class="card-body p-2">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="row">
+                          <div class="col-10">
+                            <div class="row">
+                              <div class="col-2 px-3">
+                                <div style="width: 48px;height:48px;border-radius: 50%;">
+                                  <img src="../images/kodluyoruz.jpg" alt=""
+                                    style="width: 100%;height:100%;object-fit: cover;border-radius: 50%;">
+                                </div>
+                              </div>
+                              <div class="col-10 p-0" style="line-height: 1;">
+                                <span style="font-size: 14px; font-weight:500">kodluyoruz</span> <br>
+                                <span style="font-size: 12px; color:rgb(137, 137, 137)">98.516 takipçi</span> <br>
+                                <span style="font-size: 12px; color:rgb(137, 137, 137)">45 dakika .</span><svg
+                                  style="color:rgb(137, 137, 137);" xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor"
+                                  class="mercado-match" width="16" height="16" focusable="false">
+                                  <path
+                                    d="M8 1a7 7 0 107 7 7 7 0 00-7-7zM3 8a5 5 0 011-3l.55.55A1.5 1.5 0 015 6.62v1.07a.75.75 0 00.22.53l.56.56a.75.75 0 00.53.22H7v.69a.75.75 0 00.22.53l.56.56a.75.75 0 01.22.53V13a5 5 0 01-5-5zm6.24 4.83l2-2.46a.75.75 0 00.09-.8l-.58-1.16A.76.76 0 0010 8H7v-.19a.51.51 0 01.28-.45l.38-.19a.74.74 0 01.68 0L9 7.5l.38-.7a1 1 0 00.12-.48v-.85a.78.78 0 01.21-.53l1.07-1.09a5 5 0 01-1.54 9z">
+                                  </path>
+                                </svg>
+                              </div>
+                            </div>
+
+                          </div>
+                          <div class="col-2 d-flex justify-content-end px-4">
+                            <span><i class="fa-solid fa-ellipsis"></i></span>
+                          </div>
+                        </div>
+                        <div class="row mt-2">
+                          <div class="col-12 text-start">
+                            <p class="px-2" style="font-size: 14px;">"Yazılım Alanında Tasarımcı Olmak" konulu
+                              #LAFlıyoruz etkinliğimiz başladı! 🔴
+                              Seni de laflamaya bekliyoruz! 😉</p>
+                          </div>
+                        </div>
+                        <div class="row mt-2">
+                          <div class="col-12">
+                            <div style="width: 520;height:290px;border-radius: 8px;">
+                              <img src="../images/kodluyoruzpost.png" alt=""
+                                style="width: 100%;height: 100%;object-fit:contain;border-radius:8px">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row p-3" style="max-height:52px ;">
+                          <div class="col-md-12 addPostCard">
+                            <ul>
+                              <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24"
+                                  fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                  <path
+                                    d="M19.46 11l-3.91-3.91a7 7 0 01-1.69-2.74l-.49-1.47A2.76 2.76 0 0010.76 1 2.75 2.75 0 008 3.74v1.12a9.19 9.19 0 00.46 2.85L8.89 9H4.12A2.12 2.12 0 002 11.12a2.16 2.16 0 00.92 1.76A2.11 2.11 0 002 14.62a2.14 2.14 0 001.28 2 2 2 0 00-.28 1 2.12 2.12 0 002 2.12v.14A2.12 2.12 0 007.12 22h7.49a8.08 8.08 0 003.58-.84l.31-.16H21V11zM19 19h-1l-.73.37a6.14 6.14 0 01-2.69.63H7.72a1 1 0 01-1-.72l-.25-.87-.85-.41A1 1 0 015 17l.17-1-.76-.74A1 1 0 014.27 14l.66-1.09-.73-1.1a.49.49 0 01.08-.7.48.48 0 01.34-.11h7.05l-1.31-3.92A7 7 0 0110 4.86V3.75a.77.77 0 01.75-.75.75.75 0 01.71.51L12 5a9 9 0 002.13 3.5l4.5 4.5H19z">
+                                  </path>
+                                </svg>
+                                <span>Beğen</span>
+                              </li>
+                              <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24"
+                                  fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                  <path
+                                    d="M7 9h10v1H7zm0 4h7v-1H7zm16-2a6.78 6.78 0 01-2.84 5.61L12 22v-4H8A7 7 0 018 4h8a7 7 0 017 7zm-2 0a5 5 0 00-5-5H8a5 5 0 000 10h6v2.28L19 15a4.79 4.79 0 002-4z">
+                                  </path>
+                                </svg>
+                                <span>Yorum Yap</span>
+                              </li>
+                              <li>
+                                <i class="fa-solid fa-share"></i>
+                                <span>Paylaş</span>
+                              </li>
+                              <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24"
+                                  fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                  <path d="M21 3L0 10l7.66 4.26L16 8l-6.26 8.34L14 24l7-21z"></path>
+                                </svg>
+                                <span>Gönder</span>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 p-0" style="max-width: 315px;">
+            <div class="row w-100 m-0">
+              <div class="col-md-12 p-0">
+                <div class="card homeCard">
+                  <div class="card-body px-4">
+                    <div class="row">
+                      <div class="col-10 px-2">
+                        <h6>Akışınıza Ekleyin</h6>
+                      </div>
+                      <div class="col-2 text-end"><i class="fa-solid fa-circle-info"></i></div>
+                    </div>
+                    <div class="row mt-2 px-1">
+                      <div class="col-3 p-0" style="width: 48px;height:48px;border-radius:50%">
+                        <img src="https://picsum.photos/id/100/200/300" alt=""
+                          style="width: 100%;height:100%;object-fit: cover; border-radius: 50%;">
+                      </div>
+                      <div class="col-9">
+                        <h6 style="margin-bottom: 3px;">Ali Candan</h6>
+                        <p style="font-size: 12px; color:rgb(91, 91, 91)">Diplomat</p>
+                        <div class="btn followBtn btn-sm mt-2"><i class="fa-solid fa-plus"></i><span class="mx-2">Takip
+                            Et</span></div>
+                      </div>
+                    </div>
+                    <div class="row mt-3 px-1">
+                      <div class="col-3 p-0" style="width: 48px;height:48px;border-radius:50%">
+                        <img src="https://picsum.photos/id/101/200/300" alt=""
+                          style="width: 100%;height:100%;object-fit: cover; border-radius: 50%;">
+                      </div>
+                      <div class="col-9">
+                        <h6 style="margin-bottom: 3px;">Efe Karahanlı</h6>
+                        <p style="font-size: 12px; color:rgb(91, 91, 91)">---</p>
+                        <div class="btn followBtn btn-sm mt-2"><i class="fa-solid fa-plus"></i><span class="mx-2">Takip
+                            Et</span></div>
+                      </div>
+                    </div>
+                    <div class="row mt-3 px-1">
+                      <div class="col-3 p-0" style="width: 48px;height:48px;border-radius:50%">
+                        <img src="https://picsum.photos/id/102/200/300" alt=""
+                          style="width: 100%;height:100%;object-fit: cover; border-radius: 50%;">
+                      </div>
+                      <div class="col-9">
+                        <h6 style="margin-bottom: 3px;">Elif Eylül</h6>
+                        <p style="font-size: 12px; color:rgb(91, 91, 91)">Avukat</p>
+                        <div class="btn followBtn btn-sm mt-2"><i class="fa-solid fa-plus"></i><span class="mx-2">Takip
+                            Et</span></div>
+                      </div>
+                    </div>
+                    <div class="row mt-3 px-1">
+                      <div class="col-12 allAdvice p-0">
+                        <a href="#">Tüm tavsiyeleri görün <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-2 ">
+              <div class="col-12">
+                <div class="card p-2 homeCard">
+                  <img src="../images/linkedInAdImg.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="row mt-2">
+              <div class="col-12">
+                <div class="card homeCardFooter">
+                  <ul>
+                    <li>Hakkında</li>
+                    <li>Erişilebilirlik</li>
+                    <li>Yardım Merkezi</li>
+                    <li>Gizlilik ve Koşullar</li>
+                    <li>Reklam Tercihleri</li>
+                    <li>Reklam</li>
+                    <li>Ticari Hizmetler</li>
+                    <li>LinkedIn uygulamasını yükle</li>
+                    <li>Daha Fazla</li>
+                  </ul>
+                </div>
+
+              </div>
+              <div class="col-12 text-center" style="font-size: 12px;">
+                <p class="m-0 px-3"><svg style=" color:rgb(10 102 194)" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 56 14" data-supported-dps="56x14" fill="currentColor" class="mercado-match" width="56"
+                    height="14" focusable="false">
+                    <g>
+                      <path class="background-mercado"
+                        d="M22.1 8.2l3.09 3.8h-2.44L20 8.51V12h-2V2h2v5.88L22.54 5h2.55zm-8-3.4A2.71 2.71 0 0011.89 6V5H10v7h2V8.73a1.74 1.74 0 011.66-1.93C14.82 6.8 15 7.94 15 8.73V12h2V8.29c0-2.2-.73-3.49-2.86-3.49zM32 8.66a4.22 4.22 0 010 .44h-5.25v.07a1.79 1.79 0 001.83 1.43 2.51 2.51 0 001.84-.69l1.33 1a4.31 4.31 0 01-3.25 1.29 3.49 3.49 0 01-3.7-3.75 3.58 3.58 0 013.76-3.65C30.44 4.8 32 6.13 32 8.66zm-1.86-.86a1.46 1.46 0 00-1.59-1.4 1.64 1.64 0 00-1.8 1.4zM2 2H0v10h6v-2H2zm36 0h2v10h-1.89v-.7a2.44 2.44 0 01-2 .9 3.41 3.41 0 01-3.31-3.7 3.36 3.36 0 013.3-3.7 2.62 2.62 0 011.9.7zm.15 6.5a1.63 1.63 0 00-1.62-1.85A1.76 1.76 0 0034.9 8.5a1.76 1.76 0 001.63 1.85 1.63 1.63 0 001.62-1.85zM8 1.8A1.27 1.27 0 006.75 3a1.25 1.25 0 002.5 0A1.27 1.27 0 008 1.8zM7 12h2V5H7zM56 1v12a1 1 0 01-1 1H43a1 1 0 01-1-1V1a1 1 0 011-1h12a1 1 0 011 1zM46 5h-2v7h2zm.25-2a1.25 1.25 0 00-2.5 0 1.25 1.25 0 002.5 0zM54 8.29c0-2.2-.73-3.49-2.86-3.49A2.71 2.71 0 0048.89 6V5H47v7h2V8.73a1.74 1.74 0 011.66-1.93C51.82 6.8 52 7.94 52 8.73V12h2z">
+                      </path>
+                    </g>
+                  </svg>
+                  <span>LinkedIn Corporation © 2022</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

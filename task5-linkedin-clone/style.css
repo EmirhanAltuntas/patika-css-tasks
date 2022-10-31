@@ -1,0 +1,321 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    margin:0 ;
+    padding: 0 ;
+}
+
+
+
+.loginInputs {
+    width: 304px; 
+    height: 52px; 
+    border: 1px solid rgb(150,150,150); 
+    border-radius: 5px;
+}
+.emailInput{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+}
+.emailInput:focus{
+    outline: 2px solid rgb(74, 74, 255) !important;
+}
+.emailInput::placeholder{
+    font-size: 18px !important;
+}
+.passInput{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+}
+.passInput:focus{
+    outline: 2px solid rgb(74, 74, 255) !important;
+}
+.passInput::placeholder{
+    font-size: 18px !important;
+}
+#forgetPass{
+    color: rgb(10,102,194);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 22px;
+}
+.card {
+    border: none !important;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    border-radius: 8px !important;
+}
+.loginBtn{
+    background: rgb(10 102 194) !important;
+    color:#fff !important;
+    border-radius: 28px !important;
+    vertical-align: middle !important;
+    width: 298px;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    padding: 12px !important;
+}
+.loginBtn:hover{
+    background: rgb(7, 61, 116) !important;
+}
+.orText{
+    font-size: 13px;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-column-gap: 1.2rem;
+    align-items: center;
+    color: rgb(110, 110, 110);
+    width: 304px !important;
+
+}
+
+.orText::before,
+.orText::after {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: currentColor;
+}
+.appleBtn{
+    border: 1px solid rgb(119, 119, 119) !important;
+    width: 298px;
+    border-radius: 28px !important;
+}
+.footerMenu ul li {
+    display: inline !important;
+    font-size: 12px;
+    color:rgba(0,0,0,0.6);
+    font-weight: 600;
+    padding: 3px;
+}
+#lang{
+    text-decoration: none;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    font-size: 12px;
+    color:rgba(0,0,0,0.6);
+    font-weight: 600;
+
+}
+#registerBody{
+    background-color: #f3f2f2 !important;
+}
+.input_label {
+   color:  rgba(0,0,0,0.6);
+   font-size: 14px;
+}
+.registerInputs {
+    border-radius: 4px;
+    border: 1px solid rgba(0,0,0,0.6);
+    height: 32px;
+    padding: 8px;
+    margin-top: 4px;
+}
+.registerCard{
+    box-shadow: none !important;
+    border-radius: 4px !important;
+}
+#registerPolicyText{
+    font-size: 12px !important;
+    color: rgba(0, 0, 0, 0.672);
+    margin: 12px 0 12px 0 ;
+    padding: 0 15px;
+}
+#registerPolicyText a {
+    text-decoration: none !important;
+    font-weight: 600;
+}
+.registerConfirmBtn {
+    background-color:  #0a66c2 !important;
+    height: 48px !important;
+    border-radius: 24px !important;
+    max-width: 360px;
+    vertical-align: middle !important;
+    line-height: 35px !important;
+    overflow: hidden !important;
+    outline-width: 2px !important;
+    font-weight: 500 !important;
+}
+.registerConfirmBtn:hover {
+    background-color: rgb(35, 63, 122) !important;
+}
+.registerGoogleBtn{
+    border:  1px solid rgb(219, 219, 219) !important;
+    width: 300px !important;
+    border-radius: 24px !important;
+    font-size: 14px !important;
+    color: rgb(79, 79, 79) !important;
+}
+a{
+    text-decoration: none !important;
+}
+.homeNav{
+    background-color: white;
+    max-height: 53px;
+    border-bottom: 1px solid hsl(0deg 0% 0% / 8%);
+}
+.homeNavMenu ul {
+    margin: 0;
+    padding-left: 0;
+}
+.homeNavMenu ul li{
+    float: left;
+    display: inline !important;
+    padding: 0 3px;
+    margin-right: 25px;
+}
+.global_search {
+    width: 280px !important;
+    background-color: rgb(238 243 248) !important;
+    border-radius: 3px;
+    height: 34px !important;
+    margin-top: 3px;
+    font-family: sans-serif;
+}
+.global_search:hover{
+    outline: 2px solid black;
+
+}
+.global_search input{
+    background-color: transparent;
+    line-height: 1.75;
+    font-weight: 400;
+    font-size: 14px;
+    height: 34px;
+    border: none !important;
+    margin: 0 8px;
+}
+.global_search input:focus{
+    outline: none;
+}
+.homeMenuText {
+    font-size: 12px !important;
+    color: rgb(63, 63, 63);
+    display: block;
+    
+}
+.homeMenuText:hover{
+    color: black;
+}
+.homeBody {
+    background-color: rgb(243 242 239)!important;
+}
+.hMenuIcons{
+    width: 22px;
+    height: 19px;
+    font-size: 20px;
+    color: rgb(98, 98, 98) !important;
+}
+#homePremText{
+    font-size: 12px !important;
+    color:rgb(145 89 7) !important;
+    text-decoration: underline !important;
+    line-height: 1.5 !important;
+    display: flex;
+}
+.active{
+    color:black !important;
+    border-bottom: 2px solid black;
+}
+.card-container {
+    height: 100px;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  
+.top-card {
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color:rgb(10 102 194)
+}
+  
+  .top-card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid white;
+    transform: translateY(45px);
+    object-fit: cover;
+}
+.homeLeftTopCard{
+    font-size: 12px;
+    display: flex;
+    padding: 5px;
+    color: rgb(99, 99, 99);
+    margin-bottom: 0;
+}
+p{
+    margin-bottom: 0 !important; 
+}
+.homeCard{
+    box-shadow: none;
+    border: 1px solid rgb(224, 224, 224) !important;
+}
+
+.addPostCard ul{
+    margin: 0;
+    padding:0;
+    display: flex;
+    justify-content: space-between;
+
+}
+.addPostCard ul li {
+    display: inline;
+    font-size: 14px;
+    font-weight: 500;
+    color: #888888;
+    
+}
+/* .addPostCard ul li:nth-child(-n+3){
+    margin-right:30px
+} */
+.addPostCard ul li span {
+    vertical-align: middle;
+    margin-left:8px
+}
+.followBtn{
+    border:1px solid rgb(69, 69, 69) !important;
+    border-radius: 28px !important;
+    color: rgb(100, 100, 100) !important;
+    font-weight: 600 !important;
+}
+
+.allAdvice{
+    font-size: 14px;
+    font-weight: 600;
+}
+.allAdvice a {
+    color: rgb(113, 113, 113);
+}
+
+.allAdvice a:hover{
+    color: rgb(55, 55, 55);
+}
+
+.homeCardFooter{
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    display: flex;
+    justify-content: space-between;
+}
+
+.homeCardFooter ul {
+    margin-bottom: 7px;
+}
+
+.homeCardFooter ul li {
+    display: inline;
+    font-size: 12px;
+    color: rgb(94, 94, 94);
+    margin-right: 5px;
+}
